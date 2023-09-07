@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kvrdv/avifly-test/static/css/main.ff7169b3.css",
-    "main.js": "/kvrdv/avifly-test/static/js/main.ef7e47a7.js",
-    "static/media/clouds.svg": "/kvrdv/avifly-test/static/media/clouds.04d84ba15f5594f79daba4c2e1c18a64.svg",
-    "static/media/logo.svg": "/kvrdv/avifly-test/static/media/logo.f81f6cdae3c86db3a0d649e77dc92764.svg",
-    "static/media/s7-logo.png": "/kvrdv/avifly-test/static/media/s7-logo.1d03ae04c57715a666c8.png",
-    "static/media/plane.svg": "/kvrdv/avifly-test/static/media/plane.f1c0c98e45d2d521b91a878b141c2661.svg",
-    "index.html": "/kvrdv/avifly-test/index.html",
-    "main.ff7169b3.css.map": "/kvrdv/avifly-test/static/css/main.ff7169b3.css.map",
-    "main.ef7e47a7.js.map": "/kvrdv/avifly-test/static/js/main.ef7e47a7.js.map"
+    "main.css": "/static/css/main.ff7169b3.css",
+    "main.js": "/static/js/main.60d245eb.js",
+    "static/media/clouds.svg": "/static/media/clouds.04d84ba15f5594f79daba4c2e1c18a64.svg",
+    "static/media/logo.svg": "/static/media/logo.f81f6cdae3c86db3a0d649e77dc92764.svg",
+    "static/media/s7-logo.png": "/static/media/s7-logo.1d03ae04c57715a666c8.png",
+    "index.html": "/index.html",
+    "static/media/plane.svg": "/static/media/plane.f1c0c98e45d2d521b91a878b141c2661.svg",
+    "main.ff7169b3.css.map": "/static/css/main.ff7169b3.css.map",
+    "main.60d245eb.js.map": "/static/js/main.60d245eb.js.map"
   },
   "entrypoints": [
     "static/css/main.ff7169b3.css",
-    "static/js/main.ef7e47a7.js"
+    "static/js/main.60d245eb.js"
   ]
 }
