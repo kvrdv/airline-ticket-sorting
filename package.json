@@ -1,6 +1,5 @@
 {
 	"name": "avifly-test",
-	"homepage": "https://github.com/kvrdv/avifly-test",
 	"version": "0.1.0",
 	"private": true,
 	"description": "Air ticketing page with filters",
