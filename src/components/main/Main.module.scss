@@ -1,0 +1,7 @@
+@import '../../assets/styles/variables.scss';
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 2.5fr;
+	grid-gap: 1.5rem;
+}

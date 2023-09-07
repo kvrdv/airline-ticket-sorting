@@ -1,0 +1,90 @@
+@import '../../../assets/styles/variables.scss';
+
+.container {
+	width: 100%;
+	padding-bottom: 1rem;
+	user-select: none;
+
+	> h3 {
+		margin-left: 1.5rem;
+		margin-bottom: -0.5rem;
+	}
+
+	.item {
+		position: relative;
+		padding: 0.5rem 0 0.5rem 1.5rem;
+		background-color: $white;
+		transition: background-color 0.3s ease-in-out;
+
+		&:hover {
+			background-color: $blue-hover;
+
+			.reset {
+				color: $blue;
+			}
+		}
+
+		> label {
+			display: block;
+			position: relative;
+			padding-left: 2.3rem;
+			margin: 0.5rem 0;
+			cursor: pointer;
+			width: fit-content;
+
+			.checkbox {
+				position: absolute;
+				opacity: 0;
+				cursor: pointer;
+				height: 0;
+				width: 0;
+
+				&:checked ~ .checked:after {
+					display: block;
+				}
+
+				&:checked ~ .checked {
+					border: 1px solid $blue;
+				}
+			}
+
+			.checked {
+				position: absolute;
+				top: -5px;
+				left: 0;
+				height: 23px;
+				width: 23px;
+				background-color: $white;
+				border: 1px solid $gray;
+				border-radius: 0.4rem;
+				transition: border 0.3s ease-in-out;
+
+				&:after {
+					content: '';
+					position: absolute;
+					display: none;
+					cursor: pointer;
+					left: 8px;
+					top: 4px;
+					width: 5px;
+					height: 10px;
+					border: 1px solid $blue;
+					border-width: 0 3px 3px 0;
+					transform: rotate(45deg);
+				}
+			}
+		}
+
+		.reset {
+			position: absolute;
+			right: 1.5rem;
+			top: 1.1rem;
+			font-size: 0.85rem;
+			font-weight: 500;
+			text-transform: uppercase;
+			color: $white;
+			transition: color 0.3s ease-in-out;
+			cursor: pointer;
+		}
+	}
+}

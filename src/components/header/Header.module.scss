@@ -1,0 +1,30 @@
+@import '../../assets/styles/variables.scss';
+
+.container {
+	position: relative;
+	max-width: 100%;
+	height: 7rem;
+	box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 0.6rem;
+	background-color: $blue;
+	margin: 1.5rem 0;
+	display: flex;
+	justify-content: left;
+	overflow: hidden;
+
+	.logo {
+		position: absolute;
+		z-index: 10;
+		width: 15rem;
+		margin-left: 2rem;
+	}
+
+	.clouds {
+		position: absolute;
+		right: -10px;
+		top: -100px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 120%;
+	}
+}

@@ -1,0 +1,8 @@
+@import '../../assets/styles/variables.scss';
+
+.container {
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 0.6rem;
+    background-color: $white;
+    block-size: fit-content;
+}
