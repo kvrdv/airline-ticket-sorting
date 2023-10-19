@@ -1,11 +1,11 @@
 {
-	"homepage": "https://kvrdv.github.io/avifly-test",
-	"name": "avifly-test",
+	"homepage": "https://kvrdv.github.io/avifly",
+	"name": "avifly",
 	"version": "0.1.0",
 	"private": true,
 	"description": "Air ticketing page with filters",
 	"author": {
-		"email": "s.kovardaev@gmail.com",
+		"email": "contact@kovardaev.com",
 		"name": "Sam Kovardaev",
 		"url": "https://github.com/kvrdv"
 	},
