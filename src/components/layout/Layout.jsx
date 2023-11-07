@@ -1,4 +1,3 @@
-import Header from '../header/Header';
 import styles from './Layout.module.scss';
 import Main from '../main/Main';
 import { BarLoader } from 'react-spinners';
@@ -16,7 +15,6 @@ const Layout = () => {
 
 	return (
 		<div className={styles.container}>
-			<Header />
 			{isLoading ? (
 				<BarLoader color="#0066ff" height={6} width={1080} />
 			) : (

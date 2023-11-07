@@ -4,7 +4,7 @@ import TicketList from '../ticket-list/TicketList';
 import styles from './Main.module.scss';
 
 const Main = () => {
-	const [activeCurrency, setActiveCurrency] = useState('rub');
+	const [activeCurrency, setActiveCurrency] = useState('usd');
 	const [filters, setFilters] = useState({
 		filterAll: true,
 		filter0: false,

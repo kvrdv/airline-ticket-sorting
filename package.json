@@ -1,13 +1,13 @@
 {
-	"homepage": "https://kvrdv.github.io/avifly",
-	"name": "avifly",
-	"version": "0.1.0",
+	"homepage": "https://github.com/kovardaev/airline-ticket-sorting",
+	"name": "airline-ticket-sorting",
+	"version": "0.2.0",
 	"private": true,
-	"description": "Air ticketing page with filters",
+	"description": "Airline ticket sorting ",
 	"author": {
 		"email": "contact@kovardaev.com",
-		"name": "Sam Kovardaev",
-		"url": "https://github.com/kvrdv"
+		"name": "Semyon Kovardaev",
+		"url": "https://github.com/kovardaev"
 	},
 	"scripts": {
 		"start": "react-scripts start",

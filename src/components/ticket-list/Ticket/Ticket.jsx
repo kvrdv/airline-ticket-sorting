@@ -22,8 +22,8 @@ const Ticket = ({
 			<div className={styles.purchase}>
 				<img src={logo} alt="airline logo" draggable={false} />
 				<button>
-					Купить <br />{' '}
-					{`за ${convertCurrency(price, activeCurrency)}`}
+					Book <br />{' '}
+					{`for ${convertCurrency(price, activeCurrency)}`}
 				</button>
 			</div>
 			<div className={styles.info}>

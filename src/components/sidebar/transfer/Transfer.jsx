@@ -5,16 +5,16 @@ import styles from './Transfer.module.scss';
 
 const Transfer = ({ handleFilterChange, filters, handleOnly }) => {
 	const filtersData = [
-		{ id: 'filterAll', title: 'Все', defaultCheck: true },
-		{ id: 'filter0', title: 'Без пересадок', defaultCheck: false },
-		{ id: 'filter1', title: '1 пересадка', defaultCheck: false },
-		{ id: 'filter2', title: '2 пересадки', defaultCheck: false },
-		{ id: 'filter3', title: '3 пересадки', defaultCheck: false },
+		{ id: 'filterAll', title: 'All', defaultCheck: true },
+		{ id: 'filter0', title: 'No transfers', defaultCheck: false },
+		{ id: 'filter1', title: '1 transfer', defaultCheck: false },
+		{ id: 'filter2', title: '2 transfers', defaultCheck: false },
+		{ id: 'filter3', title: '3 transfers', defaultCheck: false },
 	];
 
 	return (
 		<div className={styles.container}>
-			<Heading title={'количество пересадок'} />
+			<Heading title={'number of transfers'} />
 			<form className={styles.list}>
 				{filtersData.map((filter) => {
 					return (
@@ -36,7 +36,7 @@ const Transfer = ({ handleFilterChange, filters, handleOnly }) => {
 								<span className={styles.checked}></span>
 							</label>
 							<span className={styles.reset} onClick={handleOnly}>
-								только
+								only
 							</span>
 						</div>
 					);

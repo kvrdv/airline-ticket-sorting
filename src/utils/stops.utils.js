@@ -3,16 +3,16 @@ const countStops = (stops) => {
 
 	switch (stops) {
 		case 1:
-			textContent = '1 пересадка';
+			textContent = '1 transfer';
 			break;
 		case 2:
-			textContent = '2 пересадки';
+			textContent = '2 transfers';
 			break;
 		case 3:
-			textContent = '3 пересадки';
+			textContent = '3 transfers';
 			break;
 		default:
-			textContent = 'без пересадок';
+			textContent = 'no transfer';
 	}
 
 	return textContent;

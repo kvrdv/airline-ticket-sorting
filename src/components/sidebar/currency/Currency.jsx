@@ -4,11 +4,11 @@ import Heading from '../heading/Heading';
 import styles from './Currency.module.scss';
 
 const Currency = ({ activeCurrency, changeCurrency }) => {
-	const currencies = ['rub', 'usd', 'eur'];
+	const currencies = ['usd', 'eur', 'rub'];
 
 	return (
 		<div className={styles.container}>
-			<Heading title={'валюта'} />
+			<Heading title={'currency'} />
 			<div className={styles.menu}>
 				{currencies.map((currency) => {
 					return (

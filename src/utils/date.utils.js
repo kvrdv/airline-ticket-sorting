@@ -4,7 +4,7 @@ const formatDate = (date) => {
         5
     )}-${date.slice(0, 2)}`;
 
-    const tempDate2 = new Date(tempDate1).toLocaleDateString('ru-RU', {
+    const tempDate2 = new Date(tempDate1).toLocaleDateString('en-US', {
         day: 'numeric',
         weekday: 'short',
         year: 'numeric',
