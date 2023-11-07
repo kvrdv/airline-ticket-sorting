@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/avifly/static/css/main.ff7169b3.css",
-    "main.js": "/avifly/static/js/main.d2430b61.js",
-    "static/media/clouds.svg": "/avifly/static/media/clouds.04d84ba15f5594f79daba4c2e1c18a64.svg",
-    "static/media/logo.svg": "/avifly/static/media/logo.f81f6cdae3c86db3a0d649e77dc92764.svg",
-    "static/media/s7-logo.png": "/avifly/static/media/s7-logo.1d03ae04c57715a666c8.png",
-    "index.html": "/avifly/index.html",
-    "static/media/plane.svg": "/avifly/static/media/plane.f1c0c98e45d2d521b91a878b141c2661.svg",
-    "main.ff7169b3.css.map": "/avifly/static/css/main.ff7169b3.css.map",
-    "main.d2430b61.js.map": "/avifly/static/js/main.d2430b61.js.map"
+    "main.css": "/kovardaev/airline-ticket-sorting/static/css/main.5c99b481.css",
+    "main.js": "/kovardaev/airline-ticket-sorting/static/js/main.5a2802be.js",
+    "static/media/s7-logo.png": "/kovardaev/airline-ticket-sorting/static/media/s7-logo.1d03ae04c57715a666c8.png",
+    "index.html": "/kovardaev/airline-ticket-sorting/index.html",
+    "static/media/plane.svg": "/kovardaev/airline-ticket-sorting/static/media/plane.f1c0c98e45d2d521b91a878b141c2661.svg",
+    "main.5c99b481.css.map": "/kovardaev/airline-ticket-sorting/static/css/main.5c99b481.css.map",
+    "main.5a2802be.js.map": "/kovardaev/airline-ticket-sorting/static/js/main.5a2802be.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff7169b3.css",
-    "static/js/main.d2430b61.js"
+    "static/css/main.5c99b481.css",
+    "static/js/main.5a2802be.js"
   ]
 }
