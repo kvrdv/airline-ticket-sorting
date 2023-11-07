@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kovardaev/airline-ticket-sorting/static/css/main.5c99b481.css",
-    "main.js": "/kovardaev/airline-ticket-sorting/static/js/main.5a2802be.js",
-    "static/media/s7-logo.png": "/kovardaev/airline-ticket-sorting/static/media/s7-logo.1d03ae04c57715a666c8.png",
-    "index.html": "/kovardaev/airline-ticket-sorting/index.html",
-    "static/media/plane.svg": "/kovardaev/airline-ticket-sorting/static/media/plane.f1c0c98e45d2d521b91a878b141c2661.svg",
-    "main.5c99b481.css.map": "/kovardaev/airline-ticket-sorting/static/css/main.5c99b481.css.map",
-    "main.5a2802be.js.map": "/kovardaev/airline-ticket-sorting/static/js/main.5a2802be.js.map"
+    "main.css": "/airline-ticket-sorting/static/css/main.5c99b481.css",
+    "main.js": "/airline-ticket-sorting/static/js/main.b39780bf.js",
+    "static/media/s7-logo.png": "/airline-ticket-sorting/static/media/s7-logo.1d03ae04c57715a666c8.png",
+    "index.html": "/airline-ticket-sorting/index.html",
+    "static/media/plane.svg": "/airline-ticket-sorting/static/media/plane.f1c0c98e45d2d521b91a878b141c2661.svg",
+    "main.5c99b481.css.map": "/airline-ticket-sorting/static/css/main.5c99b481.css.map",
+    "main.b39780bf.js.map": "/airline-ticket-sorting/static/js/main.b39780bf.js.map"
   },
   "entrypoints": [
     "static/css/main.5c99b481.css",
-    "static/js/main.5a2802be.js"
+    "static/js/main.b39780bf.js"
   ]
 }
